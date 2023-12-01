@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 
 const Connection = async () => {
-    const URL = 'mongodb+srv://ChiragGwalani:Chirag123@cluster0.6smf1n8.mongodb.net/Crud-Application?retryWrites=true&w=majority';
+    const URL = 'Add your URL of mongodb';
 
     try {
         await mongoose.connect(URL, { useNewUrlParser: true, useUnifiedTopology: true });
